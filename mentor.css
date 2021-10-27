@@ -1,180 +1,107 @@
-/*============================================
-Plano de fundo
-==============================================*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Bai Jamjuree");
 
-body {
-    background: rgb(var(--color-background)) url("https://i.imgur.com/h2G83Bv.jpg") center/100% fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% auto !important;
+.activity-entry {
+    position: relative;
+    background: linear-gradient(270deg, #fda402, #f6cf41);
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 0 0px 10px #f6cf41;
+    font-family: "Bai Jamjuree";
 }
 
-@media (max-width: 1920px) {
-    body {
-        background: rgb(var(--color-background)) url("https://i.imgur.com/h2G83Bv.jpg") center/100% fixed !important;
-        background-size: auto !important;
-    }
+.activity-entry:hover {
+    position: relative;
+    background: linear-gradient(270deg, #fda402, #f6cf41);
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 0 0px 20px #f6cf41;
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 
-/*==================================================
-Histórico
-==================================================*/
+/*----------------------------------*/
+
+.about .content-wrap {
+    border: 3px solid #f6cf41;
+    box-shadow: 0 0px 10px #f6cf41;
+    border-radius: 0px;
+}
+
+.about .content-wrap:hover {
+    box-shadow: 0 0px 20px #f6cf41;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+
+/*----------------------------------*/
+
+.activity-history {
+    border: 3px solid #f6cf41;
+    box-shadow: 0 0px 10px #f6cf41;
+    border-radius: 0px;
+}
+
+.activity-history:hover {
+    box-shadow: 0 0px 20px #f6cf41;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+
+/*----------------------------------*/
+
+.history-day[data-v-b79eb0f0] {
+    background: rgb(var(--color-foreground-grey-dark));
+    border-radius: 5px;
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+}
 
 .history-day:hover {
-    transform: scale(1.2);
-}
-
-.history-day[data-v-514856af] {
-    border-radius: 20px;
-}
-
-.desktop>.content-wrap {
-    border-radius: 20px 0px !important;
-    box-shadow: var(--nutella-bs);
-    transition: all 0.69s ease-in-out;
+    transform: scale(1.5);
+    box-shadow: 0 0px 3px #f6cf41;
 }
 
 
-/*==================================================
-Mudar o cursor
-==================================================*/
+/*----------------------------------*/
 
-* {
-    cursor: url(https://i.imgur.com/J1xUINw.png), auto;
+.genre-overview {
+    border: 3px solid #f6cf41;
+    box-shadow: 0 0px 10px #f6cf41;
+    border-radius: 0px;
 }
 
-a[href],
-input[type='submit'],
-input[type='image'],
-label[for],
-select,
-button,
-.pointer {
-    cursor: url(https://i.imgur.com/2PboK5s.png), auto;
+.genre-overview:hover {
+    box-shadow: 0 0px 20px #f6cf41;
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
-a,
-a:link img {
-    cursor: url(https://i.imgur.com/2PboK5s.png), auto !important;
+.percentage-bar[data-v-aedb6876] {
+    display: none;
 }
 
 
-/*============================================
-Espaçamento entre o avatar e o menu superior
-==============================================*/
-
-.banner-content {
-    transition: 0.3s;
-    width: auto !important;
-    margin-top: 80px;
-}
-
-.site-theme-dark {
-    --color-foreground: 16, 24, 35, .90;
-}
-
-
-/*============================================
-Cantos arredondados nas atividades
-==============================================*/
-
-.wrap,
-.reply {
-    border-radius: 20px 0px 20px 20px !important;
-    overflow: visible !important;
-}
-
-.cover {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.list-stats {
-    border-radius: 20px 0px !important;
-}
-
-
-/*============================================
-Cantos arredodndados na bio
-==============================================*/
-
-.user .about>div.content-wrap {
-    scrollbar-width: thin;
-    border-radius: 20px !important;
-    transform: scale(1) !important;
-    max-height: none !important;
-}
-
-
-/*============================================
-Tirar o banner do Perfil
-==============================================*/
-
-.banner {
-    background-image: none !important;
-    background-color: rgb(36, 37, 56, 0) !important;
-    height: auto !important;
-}
-
-.banner .shadow {
-    background: none !important;
-}
-
-
-/*============================================
-Nome do perfil colorido
-==============================================*/
-
-.banner-content h1.name {
-    filter: drop-shadow(0px 0px 6px black);
-    background-image: linear-gradient(to left, #fda402, #f6cf41);
-    -webkit-background-clip: text;
-    color: transparent;
-    cursor: none
-}
-
-
-/*============================================
-Caixa do perfil e nome centralizado
-==============================================*/
-
-.banner-content {
-    transition: 0.3s;
-    width: 70% !important;
-    background-color: rgb(var(--color-foreground));
-    padding: 10px;
-    border-radius: 20px 20px 0px 0px !important;
-    margin: auto;
-    flex-direction: row;
-    margin-top: 80px;
-}
-
-
-/*============================================
-Ajusta a imagem dos favoritos
-==============================================*/
+/*----------------------------------*/
 
 .favourite {
-    transform: perspective(1px) translateZ(0);
     transition-duration: 0.3s;
     transition-property: transform;
-    border-radius: 20%;
     position: static;
+    border: 1px solid #f6cf41;
+    box-shadow: 0 0px 5px #f6cf41;
 }
-
-
-/*============================================
-Animação quando o mouse passa
-==============================================*/
 
 .favourite:hover {
-    transform: scale(1.1) rotate(4deg);
+    transform: scale(1.08);
+    transition: 0.5s;
+    box-shadow: 0 0px 10px #f6cf41;
 }
-
-
-/*============================================
-Faz com que a imagem se ajuste basicamente 
-==============================================*/
 
 .favourites-wrap.anime,
 .favourites-wrap.manga,
@@ -185,73 +112,324 @@ Faz com que a imagem se ajuste basicamente
 }
 
 
-/*============================================
-Menu abaixo do avatar e do Nome
-==============================================*/
+/*----------------------------------*/
 
-.nav-wrap {
-    background: rgb(var(--color-foreground)) !important;
-    width: 70% !important;
-    margin: 0 auto !important;
-    border-radius: 20px 20px 0px 0px !important;
+.banner-content h1.name {
+    font-size: 35px;
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    animation: colorRotate 1s linear 0s infinite;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
-.content.container {
-    background: rgb(var(--color-foreground)) !important;
-    max-width: 70%;
-    padding: 30px;
-    border-radius: 0 0 20px 20px;
-    box-shadow: var(--nutella-bs);
+@keyframes glow {
+    from {
+        text-shadow: 0 0px 10px #f6cf41;
+    }
+    to {
+        text-shadow: 0 0px 30px #fda402, 0 0 10px #fda402);
+    }
+}
+
+@keyframes colorRotate {
+    from {
+        color: #fda402;
+    }
+    50% {
+        color: #f6cf41;
+    }
+    100% {
+        color: #fda402;
+    }
+}
+
+.activity-feed-wrap>h2:nth-child(1) {
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+.desktop:nth-child(2)>h2:nth-child(1) {
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+.desktop:nth-child(3)>h2:nth-child(1) {
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+.favourites:nth-child(4)>h2:nth-child(1) {
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+.favourites:nth-child(5)>h2:nth-child(1) {
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+.favourites:nth-child(6)>h2:nth-child(1) {
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
 }
 
 
-/*============================================
-Esconder botão de download do banner
-==============================================*/
+/*----------------------------------*/
+
+.input:nth-child(2) {
+    position: relative;
+    background: linear-gradient(270deg, #fda402, #f6cf41);
+    padding: 1px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px #f6cf41;
+}
+
+.el-textarea__inner{
+        font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.input:nth-child(2):hover {
+    position: relative;
+    background: linear-gradient(270deg, #fda402, #f6cf41);
+    padding: 1px;
+    border-radius: 3px;
+    box-shadow: 0 0px 10px #f6cf41;
+    transition: 0.5s;
+}
+
+
+/*----------------------------------*/
+
+.list-stats:nth-child(1),
+.list-stats:nth-child(2) {
+    height: calc(115px - 45px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    position: static;
+    border: 1px solid #f6cf41;
+    box-shadow: 0 0px 5px #f6cf41;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+
+.list-stats:nth-child(1):hover,
+.list-stats:nth-child(2):hover {
+    height: 123px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px #f6cf41;
+}
+
+
+/*----------------------------------*/
+
+body {
+    background: rgb(var(--color-background)) url("https://i.imgur.com/IcL8icb.png") center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
+
+@media (max-width: 1920px) {
+    body {
+        background: rgb(var(--color-background)) url("https://i.imgur.com/IcL8icb.png") center/100% fixed !important;
+        background-size: auto !important;
+    }
+}
+
+.banner {
+    background-image: none !important;
+    background-color: rgb(36, 37, 56, 0) !important;
+    height: 260px !important;
+}
+
+.banner .shadow {
+    background: none !important;
+}
 
 .hohDownload {
     display: none;
 }
 
-
-/*============================================
-Avatar perfil
-==============================================*/
-
-.avatar {
-    border-radius: 100%;
-    transition: transform 0.3s;
-}
-
-h1.name {
+.banner-content {
+    transition: 0.3s;
+    width: auto !important;
+    padding: 10px;
+    border-radius: 30px !important;
     margin: auto;
-    scale: 1.5;
+    flex-direction: row;
+    margin-top: 68px;
 }
 
-.avatar.container {
+.nav-wrap {
     background: rgb(var(--color-foreground)) !important;
-    max-width: 70%;
-    padding: 30px;
-    border-radius: 0 0 20px 20px;
-    box-shadow: var(--nutella-bs);
+    width: 69% !important;
+    margin: 0 auto !important;
+    border-radius: 3px !important;
+    border: 1px solid #f6cf41;
+    box-shadow: 0 0px 10px #f6cf41;
 }
 
-.avatar:hover {
-    transform: translateX(8px);
+.header-wrap .nav-wrap .link {
+    font-size: 0rem
+}
+
+.header-wrap .nav-wrap .link:nth-child(1):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f015";
+}
+
+.header-wrap .nav-wrap .link:nth-child(2):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f26c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(3):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f02d";
+}
+
+.header-wrap .nav-wrap .link:nth-child(4):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f004";
+}
+
+.header-wrap .nav-wrap .link:nth-child(5):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f080";
+}
+
+.header-wrap .nav-wrap .link:nth-child(6):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f0c0";
+}
+
+.header-wrap .nav-wrap .link:nth-child(7):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f15c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(8):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f005";
 }
 
 
-/*============================================
-Avatares nas atividades
-==============================================*/
+/*----------------------------------*/
 
-a[class="avatar"],
-a[class="avatar router-link-exact-active router-link-active"] {
-    transition: transform 0.3s !important;
+.nav:nth-child(1)>a:nth-child(1):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
 }
 
-a[class="avatar"]:hover,
-a[class="avatar router-link-exact-active router-link-active"]:hover {
-    transform: scale(1.3) !important;
-    transition: transform 0.3s;
+.nav:nth-child(1)>a:nth-child(2):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav:nth-child(1)>a:nth-child(3):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav:nth-child(1)>a:nth-child(4):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav:nth-child(1)>a:nth-child(5):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav:nth-child(1)>a:nth-child(6):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav:nth-child(1)>a:nth-child(7):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav:nth-child(1)>a:nth-child(8):hover {
+    transform: scale(1.3);
+    color: #f6cf41;
+    transition: 0.5s;
+    text-shadow: 0 0px 5px #f6cf41;
+}
+
+/*----------------------------------*/
+
+
+.banner-content > div:nth-child(3){
+        font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+
+.nav-btn {
+    transition-duration: 0.3s;
+    transition-property: transform;
+    position: static;
+    border: 1px solid #f6cf41;
+    box-shadow: 0 0px 5px #f6cf41;
+}
+
+.nav-btn:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+    box-shadow: 0 0px 10px #f6cf41;
+}
+
+.text .name{
+    font-size: 15px;
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #fda402, #f6cf41);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorRotate 2s linear 0s infinite;
+    
 }
