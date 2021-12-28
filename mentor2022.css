@@ -1,0 +1,488 @@
+            /*Ejoy this CSS!*/
+/*https://github.com/Mentor404/anilist-css*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*--Background--*/
+:root{
+    --background: url("https://i.imgur.com/EuCXfhp.jpg");
+}
+
+body {
+    background: rgb(var(--color-background)) var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
+
+@media (max-width: 1920px) {
+    body {
+        background: rgb(var(--color-background)) var(--background) center/100% fixed !important;
+        background-size: auto !important;
+    }}
+            
+   /*--Remove Banner--*/
+            
+.banner {
+    background-image: none !important;
+    background-color: rgb(36, 37, 56, 0) !important;
+    height: auto !important;
+            }
+            
+.banner .shadow {
+    background: none !important;
+}
+
+   /*--banner content center--*/
+
+.banner-content {
+    margin-top: 70px;
+}
+
+img.avatar {
+    margin-left: auto;
+
+}
+
+   /*--nav wrap--*/
+
+.nav-wrap {
+    position: fixed;
+    bottom: 0;
+    width: calc(100px - 85px)!important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.4s;
+    z-index: 9999;
+    
+}
+
+.nav.container{
+    scale: 130% !important;
+    transition: 0.3s !important;;
+    position: relative;
+    right: 390px;
+}
+
+.nav-wrap:hover{
+    width: calc(100px - 20px)!important;
+    transition: 0.4s;
+}
+
+.nav-wrap:hover > .nav.container{
+    scale: 130% !important;
+    transition: 0.3 !important;
+    position: relative;
+    right: 122px;
+}
+
+
+.header-wrap .nav-wrap .link {
+    font-size: 0rem;
+}
+
+.header-wrap .nav-wrap .link:nth-child(1):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f015";
+}
+
+.header-wrap .nav-wrap .link:nth-child(2):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f26c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(3):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f02d";
+}
+
+.header-wrap .nav-wrap .link:nth-child(4):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f004";
+}
+
+.header-wrap .nav-wrap .link:nth-child(5):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f080";
+}
+
+.header-wrap .nav-wrap .link:nth-child(6):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f0c0";
+}
+
+.header-wrap .nav-wrap .link:nth-child(7):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f15c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(8):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f005";
+}
+
+   /*--banner download button--*/
+
+.hohDownload {
+    display: none;
+}
+
+   /*--main content--*/
+
+.overview[data-v-5c30286e]{
+    margin: 0px;
+    color: 15, 0, 26, 0.8;
+}
+
+   /*--theme colors--*/
+
+:root, .site-theme-dark, .site-theme-contrast {
+
+  --color-nav-transparent-background: var(--color-foreground),.0;
+  --color-nav-transparent-text: var(--color-text);
+  --color-shadow: var(--color-foreground);
+  --color-text-bright: var(--color-white);
+  --color-blue: 154, 67, 250;
+  --color-blue-dim: 154, 67, 250;
+  --color-red: 154, 67, 250;
+  --color-green: 133, 133, 133;
+  --color-footer-background: var(--color-background);
+  --color-footer-text: var(--color-text);
+  --genre-green: var(--color-green);
+  --genre-blue: var(--color-blue);
+  --genre-purple: var(--color-text-lighter);
+  --genre-pink: 133, 133, 133;
+  --genre-red: var(--color-red);
+  --genre-orange: 210, 14, 65;
+  --color-nav-background: var(--color-foreground);
+  --color-nav-text: var(--color-text);
+  --color-background: 15, 0, 26;
+  --color-foreground: 15, 0, 26, 0.7;
+  --color-foreground-grey: 15, 0, 26;
+  --color-foreground-grey-dark: var(--color-background);
+  --color-text: 133, 133, 133;
+  --color-text-light: 143, 143, 143;
+  --color-text-lighter: 133, 133, 133;
+  --color-background-300: var(--color-background);
+  --color-background-200: var(--color-background); 
+  --color-background-100: var(--color-foreground); 
+  --color-gray-900: var(--color-red);
+  --color-gray-800: var(--color-red);
+  --color-gray-700: var(--color-text);
+  --color-gray-600: var(--color-text);
+  --color-gray-300: var(--color-background); 
+  --color-gray-100: var(--color-foreground); 
+}
+
+div.footer:nth-child(1) {
+  background: rgb(var(--color-footer-background));
+  color: rgb(var(--color-footer-text));
+}
+
+   /*--stats--*/
+
+.list-stats:nth-child(1),
+.list-stats:nth-child(2) {
+    height: calc(115px - 45px);
+    transition: 0.3s;
+    position: static;
+}
+
+.list-stats:nth-child(1):hover,
+.list-stats:nth-child(2):hover {
+    height: 123px;
+    transition: 0.5s;
+}
+
+   /*--genre overview ocult--*/
+
+div.desktop:nth-child(3)  {
+      display: none;
+}
+
+ /*--activity  history--*/
+
+.activity-history{
+    grid-gap: 10px 0!important;
+	grid-template-rows: repeat(10, 1fr)!important;
+}
+
+.history-day{
+    content: url("https://cdn.discordapp.com/emojis/855041523913981953.png") !important;
+    background: 0 0 !important;
+	height: 20px !important;
+	width: 20px !important;
+    transition: 0.2s !important;
+
+}
+
+.history-day:hover{
+    content: url("https://cdn.discordapp.com/emojis/855041523913981953.png") !important;
+    background: 0 0 !important;
+    transition: 0.2s !important;
+    scale: 2 !important;
+}
+
+.tooltip {
+    display: none;
+}
+
+ /*--adjustments of bio--*/
+
+.user .about > div.content-wrap {
+    max-height: none !important;
+    border-radius: 10px;
+	overflow: hidden !important;
+
+}
+
+center:nth-child(2) > a:nth-child(5) > img:nth-child(1),
+center:nth-child(2) > a:nth-child(3) > img:nth-child(1){
+    transition: 0.4s !important;
+}
+
+center:nth-child(2) > a:nth-child(5) > img:nth-child(1):hover,
+center:nth-child(2) > a:nth-child(3) > img:nth-child(1):hover{
+    scale: 1.1;
+    transition: 0.4s !important;
+}
+
+ /*--feed and h2 adjustments--*/
+
+.activity-feed {
+	display: inline !important;
+}
+
+h2 {
+    font-size: 15px;
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #b03cf9,#d894fa);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 0px 50px black;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+.name{
+    font-size: 30px;
+    filter: drop-shadow(0px 0px 6px black);
+    background-image: linear-gradient(to left, #b03cf9,#d894fa);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 0px 50px black;
+    animation: colorRotate 2s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+        color: #b03cf9;
+    }
+    50% {
+        color: #d894fa;
+    }
+    100% {
+        color: #b03cf9;
+    }
+}
+
+ /*--favourite--*/
+
+.favourite {
+    transition: 0.3s;
+    filter: grayscale(90%) opacity(70%)
+}
+
+.favourite:hover {
+    scale: 1.05;
+    filter: none;
+    transition: 0.5s;
+}
+
+.favourites-wrap.anime,
+.favourites-wrap.manga,
+.favourites-wrap.characters,
+.favourites-wrap.staff,
+.favourites-wrap.studios {
+    overflow: visible;
+}
+
+ /*--like button--*/
+
+.button.liked{
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+ /*--private badge--*/
+
+.donator-badge.private-badge { 
+    visibility: hidden;
+}
+
+.donator-badge.private-badge:after {
+    content: '(⁄ ⁄•⁄ω⁄•⁄ ⁄)';
+    visibility: visible; 
+	background: rgb(var(--color-background));
+	border-radius: 3px;
+	color: rgb(var(--color-text));
+	display: inline-block;
+	font-size: 1.2rem;
+	letter-spacing: .03em;
+	overflow: hidden;
+	padding: 4px 7px;
+    left: 0px;
+    width: 82px;
+    position: absolute;
+}
+
+ /*--activity h2--*/
+
+.activity-feed-wrap > .section-header{
+    visibility: hidden;
+}
+
+.el-dropdown {
+    visibility: visible;
+}
+
+.activity-feed-wrap > .section-header:after{
+    content: 'Happy New Year!';
+    visibility: visible; 
+    left: 5px;
+    font-size: 20px;
+    cursor: text;
+    position: absolute;
+}
+
+ /*--fix markdown icons colors--*/
+
+.markdown-editor > div {
+    color: rgb(var(--color-text)) !important;
+    transition: 0.5s;
+}
+
+.markdown-editor > div:hover {
+    color: rgb(var(--color-blue)) !important;
+    transition: 0.5s;
+    scale: 1.3;
+}
+
+ /*--feed avatars--*/
+
+a.avatar{
+    transition: 0.5s;
+    filter: grayscale(90%);
+}
+
+a.avatar:hover {
+    scale: 1.2;
+    filter: none;
+    transition: 0.5s;
+}
+
+ /*--Nnaaa~~~--*/
+
+div.favourites:nth-child(8){
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    content: "";
+    background: url("https://d.furaffinity.net/art/sakaiasakai/1505640557/1505640371.sakaiasakai_%E5%A8%9C%E5%A8%9C%E5%A5%87.png") no-repeat 0 0;
+    transition: 0.5s;
+    filter: grayscale(90%) opacity(70%);
+    background-size: 100%;
+}
+
+div.favourites:nth-child(8):hover{
+    filter: none;
+    transition: 0.5s;
+
+}
+
+ /*--Nnaaa~~~ feed--*/
+
+.time{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0px !important;
+    right: 60px !important;;
+}
+
+.extras-dropdown.el-dropdown{
+    position: absolute;
+    right: -55% !important;
+}
+
+.time:before {
+    visibility: visible;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0px !important;
+    right: 0px !important;
+    filter: opacity(60%);
+    content: "";
+    background: url("https://files.catbox.moe/yexb42.png") no-repeat 0 0;
+    background-size: 100%;
+}
+
+ /*--Nnaaa~~~ reviews page--*/
+
+.no-reviews{
+    visibility: hidden;
+}
+
+.no-reviews:before{
+    visibility: visible;
+    height: 60%;
+    width: 40%; 
+    position: absolute;
+    content: "";
+    background: url("https://files.catbox.moe/jh36y6.png") no-repeat 0 0;
+    background-position-y: 20px;
+    background-size: 40%;
+}
+
+ /*--navbar--*/
+
+.nav-unscoped.nav {
+    width: 69%;
+    border-radius: 0px 0px 10px 10px;
+    left: 300px;
+    height: 60px;
+    transition: 0.5s !important;
+	background: rgb(15, 0, 26, 0.6) !important;
+	color: #e5e7ea;
+}
+
+.nav-unscoped.transparent{
+	color: #e5e7ea;
+    transition: 0.5s !important;
+
+}
+
+.nav-unscoped.nav:hover{
+    height: 70px;
+    transition: 0.5s !important;
+}
