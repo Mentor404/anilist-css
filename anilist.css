@@ -1,0 +1,194 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*--Background--*/
+:root{
+    --background: url("https://files.catbox.moe/eqdrm7.png");
+}
+
+body {
+    background: #000000 var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
+
+/* Colors */
+:root, .site-theme-dark, .site-theme-contrast {
+
+  --color-nav-transparent-background: var(--color-foreground),.0;
+  --color-nav-transparent-text: var(--color-text);
+  --color-shadow: var(--color-foreground);
+  --color-text-bright: var(--color-white);
+  --color-blue: 191, 38, 4;
+  --color-blue-dim: 191, 38, 4;
+  --color-red: 191, 38, 4;
+  --color-green: 191, 38, 4;
+  --color-footer-background: var(--color-background);
+  --color-footer-text: var(--color-text);
+  --genre-green: var(--color-green);
+  --genre-blue: var(--color-blue);
+  --genre-purple: var(--color-text-lighter);
+  --genre-pink: 133, 133, 133;
+  --genre-red: var(--color-red);
+  --genre-orange: 210, 14, 65;
+  --color-nav-background: var(--color-foreground);
+  --color-nav-text: var(--color-text);
+  --color-background: 13, 0, 0;
+  --color-foreground: 38, 1, 11, 0.9;
+  --color-foreground-grey: 38, 1, 11, 0.9;
+  --color-foreground-grey-dark: var(--color-background);
+  --color-text: 133, 133, 133;
+  --color-text-light: 143, 143, 143;
+  --color-text-lighter: 133, 133, 133;
+  --color-background-300: var(--color-background);
+  --color-background-200: var(--color-background); 
+  --color-background-100: var(--color-foreground); 
+  --color-gray-900: var(--color-red);
+  --color-gray-800: var(--color-red);
+  --color-gray-700: var(--color-text);
+  --color-gray-600: var(--color-text);
+  --color-gray-300: var(--color-background); 
+  --color-gray-100: var(--color-foreground); 
+}
+
+.markdown-editor > div {
+    color: rgb(var(--color-text)) !important;
+    transition: 0.5s;
+}
+
+.markdown-editor > div:hover {
+    color: rgb(var(--color-blue)) !important;
+    transition: 0.5s;
+    scale: 1.3;
+}
+
+div.footer:nth-child(1) {
+  background: rgb(var(--color-footer-background));
+  color: rgb(var(--color-footer-text));
+}
+
+/*--Remove Banner--*/
+
+.hohDownload {
+    display: none;
+}
+
+.banner {
+    background-image: none !important;
+    background-color: rgb(36, 37, 56, 0) !important;
+    height: auto !important;
+}
+
+.banner .shadow {
+    background: none !important;
+}
+
+/*Remove about scroll*/
+
+.user .about .content-wrap {
+    max-height: none !important;
+    border-radius: 5px;
+	  overflow: hidden !important;
+
+}
+
+/* nav */
+
+.nav-wrap {
+    position: fixed;
+    bottom: 0;
+    width: calc(100px - 85px)!important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.4s;
+    z-index: 9999;
+    
+}
+
+.nav.container{
+    scale: 130% !important;
+    transition: 0.3s !important;;
+    position: relative;
+    right: 390px;
+}
+
+.nav-wrap:hover{
+    width: calc(100px - 20px)!important;
+    transition: 0.4s;
+}
+
+.nav-wrap:hover > .nav.container{
+    scale: 130% !important;
+    transition: 0.3 !important;
+    position: relative;
+    right: 122px;
+}
+
+
+.header-wrap .nav-wrap .link {
+    font-size: 0rem;
+}
+
+.header-wrap .nav-wrap .link:nth-child(1):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f015";
+}
+
+.header-wrap .nav-wrap .link:nth-child(2):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f26c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(3):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f02d";
+}
+
+.header-wrap .nav-wrap .link:nth-child(4):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f004";
+}
+
+.header-wrap .nav-wrap .link:nth-child(5):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f080";
+}
+
+.header-wrap .nav-wrap .link:nth-child(6):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f0c0";
+}
+
+.header-wrap .nav-wrap .link:nth-child(7):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f15c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(8):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f005";
+}
+
+/* Header */
+
+.user .overview{
+  margin-top: 18px !important;
+}
+
+.user .banner-content{
+  margin-top: 7rem;
+}
+
+.user .avatar {
+    width: auto;
+    scale: 1.2;
+}
