@@ -93,36 +93,16 @@ div.footer:nth-child(1) {
 
 /* nav */
 
+.header-wrap{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
 .nav-wrap {
-    position: fixed;
-    bottom: 0;
-    width: calc(100px - 85px)!important;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    border-radius: 0px 10px 10px 0px;
-    transition: 0.4s;
-    z-index: 9999;
-    
-}
-
-.nav.container{
-    scale: 130% !important;
-    transition: 0.3s !important;;
-    position: relative;
-    right: 390px;
-}
-
-.nav-wrap:hover{
-    width: calc(100px - 20px)!important;
-    transition: 0.4s;
-}
-
-.nav-wrap:hover > .nav.container{
-    scale: 130% !important;
-    transition: 0.3 !important;
-    position: relative;
-    right: 122px;
+    margin-top: 18px;
+    padding: 0vw 15vw;
+    border-radius: 5px;
 }
 
 
