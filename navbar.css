@@ -1,0 +1,68 @@
+/* navbar */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.header-wrap{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.header-wrap .nav-wrap{
+    border-radius: 5px;
+    max-width: 1520px;
+    padding-left: 285px;
+    padding-right: 285px;
+}
+
+.header-wrap .nav-wrap .link {
+    font-size: 0rem;
+}
+
+.header-wrap .nav-wrap .link:nth-child(1):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f015";
+}
+
+.header-wrap .nav-wrap .link:nth-child(2):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f26c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(3):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f02d";
+}
+
+.header-wrap .nav-wrap .link:nth-child(4):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f004";
+}
+
+.header-wrap .nav-wrap .link:nth-child(5):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f080";
+}
+
+.header-wrap .nav-wrap .link:nth-child(6):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f0c0";
+}
+
+.header-wrap .nav-wrap .link:nth-child(7):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f15c";
+}
+
+.header-wrap .nav-wrap .link:nth-child(8):before {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    content: "\f005";
+}
