@@ -1,0 +1,49 @@
+/*--Background--*/
+:root{
+    --background: url("https://files.catbox.moe/eqdrm7.png");
+}
+
+body {
+    background: #000000 var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
+
+/* Colors */
+:root, .site-theme-dark, .site-theme-contrast {
+
+  --color-nav-transparent-background: var(--color-foreground),.0;
+  --color-nav-transparent-text: var(--color-text);
+  --color-shadow: var(--color-foreground);
+  --color-text-bright: var(--color-white);
+  --color-blue: 191, 38, 4;
+  --color-blue-dim: 191, 38, 4;
+  --color-red: 191, 38, 4;
+  --color-green: 191, 38, 4;
+  --color-footer-background: var(--color-background);
+  --color-footer-text: var(--color-text);
+  --genre-green: var(--color-green);
+  --genre-blue: var(--color-blue);
+  --genre-purple: var(--color-text-lighter);
+  --genre-pink: 133, 133, 133;
+  --genre-red: var(--color-red);
+  --genre-orange: 210, 14, 65;
+  --color-nav-background: var(--color-foreground);
+  --color-nav-text: var(--color-text);
+  --color-background: 13, 0, 0;
+  --color-foreground: 38, 1, 11, 0.9;
+  --color-foreground-grey: 38, 1, 11, 0.9;
+  --color-foreground-grey-dark: var(--color-background);
+  --color-text: 133, 133, 133;
+  --color-text-light: 143, 143, 143;
+  --color-text-lighter: 133, 133, 133;
+  --color-background-300: var(--color-background);
+  --color-background-200: var(--color-background); 
+  --color-background-100: var(--color-foreground); 
+  --color-gray-900: var(--color-red);
+  --color-gray-800: var(--color-red);
+  --color-gray-700: var(--color-text);
+  --color-gray-600: var(--color-text);
+  --color-gray-300: var(--color-background); 
+  --color-gray-100: var(--color-foreground); 
+}
