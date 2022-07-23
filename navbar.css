@@ -8,12 +8,24 @@
     justify-content: center;
 }
 
-.header-wrap .nav-wrap{
-    border-radius: 5px;
-    max-width: 1520px;
-    padding-left: 285px;
-    padding-right: 285px;
+@media (min-width: 1540px){
+    .header-wrap .nav-wrap{
+        border-radius: 5px;
+        max-width: 1520px;
+        padding-left: 285px;
+        padding-right: 285px;
+    }
 }
+
+@media (min-width: 1040px) and (max-width: 1540px){
+    .header-wrap .nav-wrap{
+        border-radius: 5px;
+        max-width: 1140px;
+        padding-left: 195px;
+        padding-right: 195px;
+    }
+}
+
 
 .header-wrap .nav-wrap .link {
     font-size: 0rem;

@@ -37,7 +37,7 @@
   --color-gray-100: var(--color-foreground); 
 }
 
-/*Solving color problems*/
+/* solving color problems */
 .markdown-editor > div {
     color: rgb(var(--color-text)) !important;
     transition: 0.5s;
@@ -52,4 +52,17 @@
 div.footer:nth-child(1) {
   background: rgb(var(--color-footer-background));
   color: rgb(var(--color-footer-text));
+}
+
+/* tootltip */
+.tooltip {
+  background: rgb(var(--color-foreground)) !important;
+}
+
+.tooltip .title{
+  background: rgb(var(--color-background),.6) !important;
+}
+
+.tooltip.bottom::after{
+  border-top-color: rgb(var(--color-foreground)) !important;
 }
