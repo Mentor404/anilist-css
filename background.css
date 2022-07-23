@@ -1,0 +1,10 @@
+/*--Background--*/
+:root{
+    --background: url("https://files.catbox.moe/eqdrm7.png");
+}
+
+body {
+    background: #000000 var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
