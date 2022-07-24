@@ -1,25 +1,4 @@
-/* favourites */
-
-.user .about .content-wrap {
-    max-height: none !important;
-    border-radius: 5px;
-	  overflow: hidden !important;
-}
-
-.history-day{
-    border-radius: 5px !important;
-    transition: scale 0.5s;
-  }
-  
-  .history-day:hover{
-    scale: 1.3;
-  }
-  
-  .desktop:nth-child(3) {
-    display: none;
-  }
-  
-  .overview .favourites > .favourites-wrap {
+   .overview .favourites > .favourites-wrap {
     display: grid !important;
     padding: 10px !important;
     grid-gap: 6px !important;
