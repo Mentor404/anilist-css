@@ -1,5 +1,11 @@
 /* favourites */
 
+.user .about .content-wrap {
+    max-height: none !important;
+    border-radius: 5px;
+	  overflow: hidden !important;
+}
+
 .history-day{
     border-radius: 5px !important;
     transition: scale 0.5s;
@@ -34,9 +40,22 @@
   .overview .favourites > .section-header{
     background: rgb(var(--color-foreground));
     margin: 0px;
-    align-items: center;
     width: 100px;
     border-radius: 5px 5px 0px 0px;
     padding-top: 8px;
     justify-content: center;
   }
+
+ .overview .desktop:nth-child(2) > .section-header{
+    background: rgb(var(--color-foreground));
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 8px;
+  }
+
+.overview .desktop:nth-child(2) .content-wrap{
+    border-radius: 0px 5px 5px 5px;
+}

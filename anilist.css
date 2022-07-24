@@ -87,8 +87,7 @@ div.footer:nth-child(1) {
 .user .about .content-wrap {
     max-height: none !important;
     border-radius: 5px;
-	  overflow: hidden !important;
-
+	overflow: hidden !important;
 }
 
 /* nav */
