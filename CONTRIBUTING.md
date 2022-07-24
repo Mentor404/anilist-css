@@ -4,7 +4,6 @@
 I will leave a guidelines for how to contribute to the project below
 
 [Code of Conduct](https://github.com/Mentor404/anilist-css/blob/main/CODE_OF_CONDUCT.md "Code of Conduct")
-How can I contribute?
 
 ## How can I contribute?
 ### Reporting Bugs
