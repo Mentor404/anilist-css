@@ -1,8 +1,0 @@
-.history-day{
-    border-radius: 5px !important;
-    transition: scale 0.5s;
-  }
-  
-  .history-day:hover{
-    scale: 1.3;
-  }
