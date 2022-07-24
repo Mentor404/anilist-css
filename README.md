@@ -20,14 +20,14 @@ To use custom CSS in your profile you need to have installed [Automail](https://
 
 To activate, go to <img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/apps.png" width="150"><br>
 Click on profile and make sure you have checked this box<br>
-<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/enable.png" width="700">
+<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/enable.png" width="700"></center>
 
 <a id="ref2"></a>
 ### 🔧 Using in your profile
 
 Let's get started, first look for this field, also in the profile tab.
 
-<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/css.png" width="700">
+<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/css.png" width="700"></center>
 
 Here you can put the complete CSS or choose some parts
 
@@ -56,7 +56,7 @@ To make any changes before using it in your profile, click on this button<img sr
 [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 Go to the part you want to modify and after making the changes, copy the code and place it below the import.
-<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/custom.png" width="700"><br>
+<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/custom.png" width="700"><br></center>
 
 <a id="ref4"></a>
 ## 🖇️ Contributing
