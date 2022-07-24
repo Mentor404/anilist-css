@@ -41,7 +41,7 @@ Here you can put the complete CSS or choose some parts
 @import url(https://mentor404.github.io/anilist-css/files/area-name-here.css);
 ```
 
-	- Exemple:
+- Exemple:
 ```css
 @import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
 @import url(https://mentor404.github.io/anilist-css/files/background.css);
