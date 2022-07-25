@@ -1,0 +1,34 @@
+.nav.nav-unscoped{
+    background: rgb(38, 1, 11, 0.5) !important;
+    max-width: 1320px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+}
+
+.logo{
+content: url("https://files.catbox.moe/ejfi9v.png");
+opacity: 0.5;
+transition: scale 1s, opacity .5s;
+}
+.nav.nav-unscoped:hover .logo{
+  opacity: 1;
+}
+
+.logo:hover{
+scale: 1.3;
+}
+
+.nav.nav-unscoped:hover{
+    background: rgb(38, 1, 11,.9) !important;
+} 
+
+@media (min-width: 1040px) and (max-width: 1540px){
+  .nav.nav-unscoped{
+  max-width: 1040px !important;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
