@@ -11,7 +11,7 @@
 @media (min-width: 1540px){
     .header-wrap .nav-wrap{
         border-radius: 5px;
-        max-width: 1520px;
+        width: 1320px;
         padding-left: 285px;
         padding-right: 285px;
     }
@@ -20,7 +20,7 @@
 @media (min-width: 1040px) and (max-width: 1540px){
     .header-wrap .nav-wrap{
         border-radius: 5px;
-        max-width: 1140px;
+        width: 1040px;
         padding-left: 195px;
         padding-right: 195px;
     }

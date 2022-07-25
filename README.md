@@ -2,13 +2,17 @@
 
 A customizable CSS library to personalize your Anilist profile.
  
-- [Prerequisites](#ref1)
-- [Using in your profile](#ref2)
+- [Starting](#ref0)
+  - [Prerequisites](#ref1)
+  - [Using in your profile](#ref2)
 - [Customizing the templates](#ref3)
 - [Contributing](#ref4)
 - [Version](#ref5)
 - [License](#ref6)
+- [Preview](#ref7)
  
+ 
+<a id="ref0"></a>
 ## 🚀 Starting
 
 These instructions will allow you to implement the project's CSS in your profile
@@ -71,3 +75,7 @@ Please read the [CONTRIBUTING.md](https://github.com/Mentor404/anilist-css/blob/
 ## 📄 License
 
 This project is under the MIT license - see the file [LICENSE.md](https://github.com/Mentor404/anilist-css/blob/main/LICENSE) for details.
+
+<a id="ref7"></a>
+## 📋 Theme Preview
+<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/preview.png" width="700">
