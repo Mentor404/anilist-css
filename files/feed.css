@@ -1,42 +1,58 @@
 /* feed */
 
+.home .activity-feed-wrap .section-header .el-dropdown-menu__item:hover, .user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover{
+  background: rgb(var(--color-foreground)) !important;
+}
+
+.activity-feed-wrap .section-header .el-dropdown-menu__item{
+padding-bottom: 12px  !important;
+border-radius: 5px 5px 0px 0px !important;
+}
+
+.el-dropdown{
+padding-right: 5px !important;
+}
+
+.el-dropdown-menu.el-popper{
+margin-right: 0px !important;
+}
+
 @media (min-width: 1540px){
-    .activity-feed{
-      display: inherit !important;
-    }
-    
-    .activity-feed > .activity-entry:not(.activity-message, .activity-text) .details{
-      max-width: 85%;
-      padding: 0px;
-      transition: all 1s;
-    }
-    
-    .activity-feed > .activity-entry:not(.activity-message, .activity-text) .cover{
-      padding-right: 20px !important;
-    }
-    
-    .details .status{
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    
-    .activity-feed > .activity-entry:not(.activity-message, .activity-text) .wrap:hover .details{
-      max-width: inherit;
-      padding: inherit;
-    }
-    
-    .activity-feed > .activity-entry:not(.activity-message, .activity-text) .wrap:hover .details .status{
-      white-space: inherit;
-      overflow: inherit;
-      text-overflow: inherit;
-    }
-  
-    .list.small{
-      max-width: 810px;
-    }
-    .list{
-      gap: 14px;
-    }
-  }
-    
+.activity-feed{
+  display: inherit !important;
+}
+
+.activity-feed > .activity-entry:not(.activity-message, .activity-text) .details{
+  max-width: 85%;
+  padding: 0px;
+  transition: all 1s;
+}
+
+.activity-feed > .activity-entry:not(.activity-message, .activity-text) .cover{
+  padding-right: 20px !important;
+}
+
+.details .status{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.activity-feed > .activity-entry:not(.activity-message, .activity-text) .wrap:hover .details{
+  max-width: inherit;
+  padding: inherit;
+}
+
+.activity-feed > .activity-entry:not(.activity-message, .activity-text) .wrap:hover .details .status{
+  white-space: inherit;
+  overflow: inherit;
+  text-overflow: inherit;
+}
+
+.list.small{
+  max-width: 810px;
+}
+.list{
+  gap: 14px;
+}
+}
