@@ -1,5 +1,5 @@
 /* colors */
-:root, .site-theme-dark, .site-theme-contrast {
+:root, .site-theme-dark, .site-theme-contrast, * {
 
   --color-nav-transparent-background: var(--color-foreground),.0;
   --color-nav-transparent-text: var(--color-text);

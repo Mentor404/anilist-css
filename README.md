@@ -78,4 +78,4 @@ This project is under the MIT license - see the file [LICENSE.md](https://github
 
 <a id="ref7"></a>
 ## 📋 Theme Preview
-<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/preview.png" width="700"></center
+<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/preview.png" width="700"></center>
