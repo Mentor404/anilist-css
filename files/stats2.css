@@ -21,6 +21,7 @@ opacity: 100%;
 .list-stats.content-wrap{
 height: calc(160.5px - 35px);
 transition: all 1s;
+margin-bottom: 0px !important;
 }
 
 .stats-wrap .footer{
