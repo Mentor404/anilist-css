@@ -65,3 +65,7 @@ margin-bottom: 0px !important;
 .stats-wrap .stat:nth-child(3) {
   grid-area: c;
 }
+
+.activity-feed-wrap, .activity-feed-wrap + div {
+  margin-top: 25px;
+}

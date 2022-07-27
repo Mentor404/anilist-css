@@ -19,13 +19,24 @@
   display: none;
 }
 
+
+
 .overview .favourites > .favourites-wrap {
   display: grid !important;
   padding: 10px !important;
   grid-gap: 6px !important;
   grid-row-gap: 10px !important;
+  grid-template-columns: repeat(auto-fill,85px);
+  grid-template-rows: repeat(auto-fill,115px);
   border-radius: 0px 5px 5px 5px;
   background: rgb(var(--color-foreground)) !important;
+  width: 470px;
+}
+
+.overview .favourites > .favourites-wrap > div, .overview .favourites > .favourites-wrap > a {
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+  column-gap: 10px !important;
 }
 
 .overview .section-header{
@@ -60,3 +71,6 @@
   border-radius: 0px 5px 5px 5px;
 }
 
+.user .overview {
+  grid-template-columns: 470px auto !important;
+}
