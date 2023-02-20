@@ -78,4 +78,9 @@ This project is under the MIT license - see the file [LICENSE.md](https://github
 
 <a id="ref7"></a>
 ## 📋 Theme Preview
+
+### [Main.css](https://github.com/Mentor404/anilist-css/blob/main/main.css)
 <center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/preview.png" width="700"></center>
+
+### [Neon.css](https://github.com/Mentor404/anilist-css/blob/main/neon.css)
+<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/neon-css.png" width="700"></center>
