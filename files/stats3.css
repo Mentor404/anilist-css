@@ -1,0 +1,55 @@
+/*
+*   For any questions check out https://github.com/Mentor404/anilist-css/issues
+*/
+
+/* stats3 */
+
+@media (max-width: 1540px) {
+    .stats-wrap {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        gap: 28px;
+    }
+}
+
+
+.milestones .milestone:after {
+    padding-top: 0px !important;
+}
+
+.stats-wrap .footer .milestones {
+    height: 25px;
+    padding: 5px 0px;
+}
+
+.stats-wrap .stat:first-child .value {
+    font-size: 5rem;
+}
+
+.stats-wrap .stat:first-child .label {
+    font-size: 1em;
+}
+
+.stats-wrap > .list-stats > .stats-wrap {
+    grid-auto-flow: inherit;
+    align-items: center;
+    row-gap: 1.2rem;
+    grid-template-areas: "a b" "a c";
+}
+
+.stats-wrap .stat:nth-child(1) {
+    grid-area: a;
+
+}
+
+.stats-wrap .stat:nth-child(2) {
+    grid-area: b;
+}
+
+.stats-wrap .stat:nth-child(3) {
+    grid-area: c;
+}
+
+.activity-feed-wrap, .activity-feed-wrap + div {
+    margin-top: 25px;
+}

@@ -4,16 +4,14 @@
 
 /* navbar */
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
-.header-wrap{
+.header-wrap {
     width: 100%;
     display: grid;
     justify-content: center;
 }
 
-@media (min-width: 1540px){
-    .header-wrap .nav-wrap{
+@media (min-width: 1540px) {
+    .header-wrap .nav-wrap {
         border-radius: 5px;
         width: 1320px;
         padding-left: 285px;
@@ -21,8 +19,8 @@
     }
 }
 
-@media (min-width: 1040px) and (max-width: 1540px){
-    .header-wrap .nav-wrap{
+@media (min-width: 1040px) and (max-width: 1540px) {
+    .header-wrap .nav-wrap {
         border-radius: 5px;
         width: 1040px;
         padding-left: 195px;
@@ -33,11 +31,11 @@
 
 .header-wrap .nav-wrap .link {
     font-size: 0rem;
-    transition: all 0.5s cubic-bezier(.39,.58,.57,1);
+    transition: all 0.5s cubic-bezier(.39, .58, .57, 1);
 }
 
 
-.header-wrap .nav-wrap .link:hover{
+.header-wrap .nav-wrap .link:hover {
     scale: 1.3;
 }
 
@@ -87,4 +85,51 @@
     font-family: "FontAwesome";
     font-size: 15px;
     content: "\f005";
+}
+
+.nav.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-wrap {
+    padding: 0 !important;
+}
+
+.user-page-unscoped.red .progress .bar {
+    background: linear-gradient(270deg, #6f6af615, #6e6af6) !important;
+}
+
+.nav > .router-link-active, .header-wrap .nav-wrap .link:hover {
+    color: rgb(var(--color-blue)) !important;
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+}
+
+/* Username and avatar */
+
+.banner .container {
+    justify-content: center;
+}
+
+.banner-content {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+}
+
+.banner-content .name-wrapper h1 {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px rgba(var(--color-blue));
+    }
+    to {
+        text-shadow: 0 0 10px rgba(var(--color-blue));
+
+    }
 }

@@ -1,0 +1,74 @@
+/*
+*   Copyright 2023,
+*   Mentor404,
+*
+*   Licensed under the MIT License
+*
+*   v2.0.0
+*
+*   For any questions check out https://github.com/Mentor404/anilist-css/issues
+*/
+
+@import url(https://mentor404.github.io/anilist-css/files/banner-remove.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://use.typekit.net/jze6fip.css");
+@import url(https://mentor404.github.io/anilist-css/files/favourites.css);
+@import url(https://mentor404.github.io/anilist-css/files/feed.css);
+@import url(https://mentor404.github.io/anilist-css/files/footer.css);
+@import url(https://mentor404.github.io/anilist-css/files/color-theme-2.css);
+@import url(https://mentor404.github.io/anilist-css/files/navbar-2.css);
+@import url(https://mentor404.github.io/anilist-css/files/stats-3.css);
+@import url(https://mentor404.github.io/anilist-css/files/top-nav-2.css);
+
+
+/* font */
+
+* {
+    font-family: "sofia-pro", sans-serif;
+}
+
+
+/* favourites change */
+
+.history-day:not(.lv-0):hover {
+    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+}
+
+.favourite {
+    transition: .3s;
+}
+
+.favourite:hover {
+    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 5px rgb(var(--color-blue)) !important;
+    scale: 1.05;
+}
+
+/* footer change */
+.footer .links > section > a:hover {
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+}
+
+/* feed change */
+
+.load-more:hover {
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 15px rgb(var(--color-blue)) !important;
+}
+
+.like-wrap .liked > svg {
+    filter: drop-shadow(0 0 3px rgb(var(--color-blue)));
+}
+
+.like-wrap .button > svg:hover {
+    filter: drop-shadow(0 0 3px rgb(var(--color-blue)));
+    scale: 1.2;
+
+}
+
+.like-wrap .button > svg {
+    transition: 0.5s;
+}
+
+.list .title {
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)) !important;
+}
+
