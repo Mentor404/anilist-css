@@ -54,12 +54,17 @@ Here you can put the complete CSS or choose some parts
 To see all available models [**click here**](https://github.com/Mentor404/anilist-css/tree/main/files).
 
 <a id="ref3"></a>
+
 ## ⚙️ Customizing the templates
 
-To make any changes before using it in your profile, click on this button<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/fork.png" width="100">
-[Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+To make major changes to the CSS, it is recommended that you clone this repository. Do so by clicking on this button.
 
-Go to the part you want to modify and after making the changes, copy the code and place it below the import.
+[<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/fork.png" width="100">Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+Remember to change the user when importing and to activate the [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) environment.
+
+If you don't want to make any major changes, you can also make a quick modification. To do this go to the file of the part you want to modify, copy and paste it right after the `@import`. Now you can change whatever you want.
+
 <center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/custom.png" width="700"><br></center>
 
 <a id="ref4"></a>
