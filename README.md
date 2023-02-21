@@ -57,11 +57,8 @@ To see all available models [**click here**](https://github.com/Mentor404/anilis
 
 ## ⚙️ Customizing the templates
 
-To make major changes to the CSS, it is recommended that you clone this repository. Do so by clicking on this button.
+To make major changes to the CSS, it is recommended that you clone this repository. Do so by clicking on this button.[<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/fork.png" width="100">Fork a repo.](https://docs.github.com/en/get-started/quickstart/fork-a-repo) Remember to change the user when importing and to activate the [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) environment.
 
-[<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/fork.png" width="100">Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-
-Remember to change the user when importing and to activate the [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) environment.
 
 If you don't want to make any major changes, you can also make a quick modification. To do this go to the file of the part you want to modify, copy and paste it right after the `@import`. Now you can change whatever you want.
 
