@@ -1,96 +1,89 @@
 # Anilist-CSS
 
-A customizable CSS library to personalize your Anilist profile.
- 
-- [Starting](#ref0)
-  - [Prerequisites](#ref1)
-  - [Using in your profile](#ref2)
-- [Customizing the templates](#ref3)
-- [Contributing](#ref4)
-- [Version](#ref5)
-- [License](#ref6)
-- [Preview](#ref7)
- 
- 
-<a id="ref0"></a>
-## 🚀 Starting
+Enhance your Anilist profile with this customizable CSS library.
 
-These instructions will allow you to implement the project's CSS in your profile
+## Contents
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Applying CSS to Your Profile](#applying-css-to-your-profile)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [License](#license)
+- [Preview](#preview)
 
-<a id="ref1"></a>
-### 📋 Prerequisites
+## Getting Started
 
-To use custom CSS in your profile you need to have installed [Automail](https://github.com/hohMiyazawa/Automail)
+Follow these instructions to apply the project's CSS to your Anilist profile.
 
-To activate, go to <img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/apps.png" width="150"><br>
-Click on profile and make sure you have checked this box<br>
-<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/enable.png" width="700"></center>
+### Prerequisites
 
-<a id="ref2"></a>
-### 🔧 Using in your profile
+Before you begin, ensure you have [Automail](https://github.com/hohMiyazawa/Automail) installed.
 
-Let's get started, first look for this field, also in the profile tab.
+Activate it by navigating to:
 
-<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/css.png" width="700"></center>
+![Apps](https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/apps.png)
 
-Here you can put the complete CSS or choose some parts
+Then, in your profile settings, ensure this option is checked:
 
-- For the full CSS use:
-```css
-@import url(https://mentor404.github.io/anilist-css/main.css);
-```
+![Enable CSS](https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/enable.png)
 
-- If you want specific parts
-```css
-@import url(https://mentor404.github.io/anilist-css/files/area-name-here.css);
-```
+### Applying CSS to Your Profile
 
-- Exemple:
-```css
-@import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
-@import url(https://mentor404.github.io/anilist-css/files/background.css);
-```
+1. In the profile tab, locate the CSS input field:
 
-To see all available models [**click here**](https://github.com/Mentor404/anilist-css/tree/main/files).
+   ![CSS Field](https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/css.png)
 
-<a id="ref3"></a>
+2. Choose how to apply the CSS:
+   - For the full CSS:
+     ```css
+     @import url(https://mentor404.github.io/anilist-css/main.css);
+     ```
+   - For specific components:
+     ```css
+     @import url(https://mentor404.github.io/anilist-css/files/area-name-here.css);
+     ```
+   - Example:
+     ```css
+     @import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
+     @import url(https://mentor404.github.io/anilist-css/files/background.css);
+     ```
 
-## ⚙️ Customizing the templates
+   To explore all available styles, [**click here**](https://github.com/Mentor404/anilist-css/tree/main/files).
 
-To make major changes to the CSS, it is recommended that you clone this repository. Do so by clicking on this button.[<img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/fork.png" width="100">Fork a repo.](https://docs.github.com/en/get-started/quickstart/fork-a-repo) Remember to change the user when importing and to activate the [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) environment.
+## Customization
 
+For significant changes, clone this repository. Follow the instructions to [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and enable [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-If you don't want to make any major changes, you can also make a quick modification. To do this go to the file of the part you want to modify, copy and paste it right after the `@import`. Now you can change whatever you want.
+For minor modifications, copy and paste the desired CSS file content after the `@import` in your profile's CSS field and customize as needed.
 
-<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/custom.png" width="700"><br></center>
+![Customization](https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/custom.png)
 
-<a id="ref4"></a>
-## 🖇️ Contributing
+## Contributing
 
-Please read the [CONTRIBUTING.md](https://github.com/Mentor404/anilist-css/blob/main/CONTRIBUTING.md) for details about our code of conduct and the process for submitting requests.
-<a id="ref5"></a>
-## 📌 Version
+Interested in contributing? Please read [CONTRIBUTING.md](https://github.com/Mentor404/anilist-css/blob/main/CONTRIBUTING.md) for guidelines on how to contribute and our code of conduct.
 
- For this project [SemVer](http://semver.org/) for version control. For the available versions, take a look at [tags in this repository](https://github.com/Mentor404/anilist-css/tags). 
+## Versioning
 
-<a id="ref6"></a>
-## 📄 License
+We use [SemVer](http://semver.org/) for version control. For available versions, see the [tags in this repository](https://github.com/Mentor404/anilist-css/tags).
 
-This project is under the MIT license - see the file [LICENSE.md](https://github.com/Mentor404/anilist-css/blob/main/LICENSE) for details.
+## License
 
-<a id="ref7"></a>
-## 📋 Theme Preview
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Mentor404/anilist-css/blob/main/LICENSE) file for details.
+
+## Preview
 
 ### [Main.css](https://github.com/Mentor404/anilist-css/blob/main/main.css)
-<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/preview.png" width="700"></center>
+![Main.css Preview](https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/preview.png)
 
 ```css
 @import url(https://mentor404.github.io/anilist-css/main.css);
 ```
 
 ### [Neon.css](https://github.com/Mentor404/anilist-css/blob/main/neon.css)
-<center><img src="https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/neon-css.png" width="700"></center>
+![Neon.css Preview](https://raw.githubusercontent.com/Mentor404/anilist-css/main/img/neon-css.png)
 
 ```css
 @import url(https://mentor404.github.io/anilist-css/neon.css);
 ```
+
