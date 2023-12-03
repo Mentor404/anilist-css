@@ -1,22 +1,22 @@
 name: Question
-description: Describe your problem/question here.
+description: Ask a question or seek clarification
 title: "[Question]: "
 labels: ["question"]
 
 body:
   - type: textarea
-    id: what-happened
+    id: question
     attributes:
-      label: What happened?
-      description: If you need any help or have any questions leave them here
-      placeholder: Leave your question here!
+      label: What's Your Question?
+      description: Feel free to ask any question or seek clarification about the project.
+      placeholder: Type your question here
     validations:
       required: true
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Mentor404/anilist-css/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this question, you agree to follow our [Code of Conduct](https://github.com/Mentor404/anilist-css/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
